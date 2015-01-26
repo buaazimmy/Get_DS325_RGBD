@@ -18,7 +18,7 @@ CC=gcc
 
 all: ${TARGET}
 ${TARGET}: $(OBJS)
-	g++ $(INCLUDE) depthsense.cpp -o ${TARGET} $(LIBS)
+	g++ $(INCLUDE) ConsoleDemo.cxx -o ${TARGET} $(LIBS)
 
 clean:
 	rm -f ./src/*.o ${TARGET} 
